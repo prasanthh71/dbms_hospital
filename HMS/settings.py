@@ -35,6 +35,7 @@ AUTH_USER_MODEL = 'app.User'
 INSTALLED_APPS = [
     'app.apps.AppConfig',
     'crispy_forms',
+    'crispy_bootstrap4',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
