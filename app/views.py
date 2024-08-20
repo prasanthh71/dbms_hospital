@@ -11,9 +11,9 @@ from .models import User, Doctor, Patient, Appointment, Invoice, Prescription
 # Create your views here.
 
 
+
 def index(request):
     return render(request, 'index.html')
-
 
 def about(request):
     return render(request, 'about.html')
